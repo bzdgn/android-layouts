@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.levent.learning.layout_examples.MainActivity"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:text="Sushi"
+        android:background="#9fc" />
+    <TableRow>
+        <TextView
+            android:text="1"
+            android:background="#c9f"/>
+        <TextView
+            android:text="Kappa Roll"
+            android:background="#9cf"/>
+        <TextView
+            android:text="Cucumber"
+            android:background="#c9f"/>
+        <TextView
+            android:text="$3.95"
+            android:background="#c9f"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="2"
+            android:background="#9cf"/>
+        <TextView
+            android:text="Caterpillar Roll"
+            android:background="#c9f"/>
+        <TextView
+            android:text="Eel, cucumber and Avocado with Tobiko on top."
+            android:background="#9cf"/>
+        <TextView
+            android:text="$9.95"
+            android:background="#c9f"/>
+    </TableRow>
+
+</TableLayout>
