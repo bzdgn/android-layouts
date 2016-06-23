@@ -1,0 +1,6 @@
+px = dp * density
+
+density = bucket(dpi / 160)
+
+Android first dpi = 160 dpi
+Then high resolution devices came up

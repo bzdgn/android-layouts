@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.levent.learning.layout_examples.MainActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CF9"
+        android:textSize="48sp"
+        android:text="Center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="North"
+        android:background="#9CF"
+        android:layout_above="@id/center"
+        android:layout_alignLeft="@id/center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="East"
+        android:background="#9CF"
+        android:layout_alignTop="@id/center"
+        android:layout_toRightOf="@id/center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="South"
+        android:background="#9CF"
+        android:layout_below="@id/center"
+        android:layout_alignRight="@id/center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="West"
+        android:background="#9CF"
+        android:layout_alignBottom="@id/center"
+        android:layout_toLeftOf="@id/center"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+RELATIVE TO SIBLING
+
+
+android:layout_above
+android:layout_below
+android:layout_toLeftOf
+android:layout_toRightOf
+
+
+android:layout_alignParentTop
+android:layout_alignParentBottom
+android:layout_alignParentLeft
+android:layout_alignParentRight
+android:layout_alignBaseline			aligns content (text) instead of view
+android:layout_centerHorizontal
+android:layout_centerVertical
+android:layout_centerInParent
+
+
+VISIBILITY;
+***********
+android:visibility="gone"
+android:layout_alignWithParentIfMissing="true"
+

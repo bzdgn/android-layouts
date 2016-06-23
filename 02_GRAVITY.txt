@@ -1,0 +1,5 @@
+LAYOUT GRAVITY & GRAVITY
+************************
+
+LAYOUT_GRAVITY	: describes the position of the view with respect to parent
+GRAVITY			: describes the position of the content within the view itself
